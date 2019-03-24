@@ -32,7 +32,7 @@
     height: 100%;
 }
 
-a:hover {
+.animation1:hover {
     text-decoration: none;
     border-bottom: 4px solid #021754;
     font-size: 16.5px;
