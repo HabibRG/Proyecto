@@ -44,3 +44,17 @@
     margin-bottom: 2%;
 }
 
+.imagen-aprende-mas-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: green;
+}
+
+.imagen-aprende-mas{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-size: cover;
+
+}
