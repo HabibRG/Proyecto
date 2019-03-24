@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Documento</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+   
     <!--CSS de nosotros-->
     <link rel="stylesheet" href="assets/css/styleHabib.css">
     <link rel="stylesheet" href="assets/css/styleHuchim.css">
     <link rel="stylesheet" href="assets/css/styleSinver.css">
+    <!--Iconos FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 </head>
 <body>
     <div class="container-fluid">
@@ -18,7 +22,7 @@
         <!--Bloque 3-->
         <div class="row bg-azul-1 p-5">
             <div class="col-sm-12 col-md-7 text-center py-3">
-               <img src="assets/img/imagen-prueba.jpg" alt="" class="ima-2 img-thumbnail" href="https://web.whatsapp.com/"> 
+               <img src="assets/img/imagen-prueba.jpg" alt="" class="ima-2 img-fluid img-thumbnail" href="https://web.whatsapp.com/"> 
             </div>
             <div class="col-sm-12 col-md-5 text-light">
                 <h1 class="text-center">Capacitación en línea</h1>
@@ -56,7 +60,7 @@
         <!--Bloque 8-->
         <div class="row bg-azul-2 p-5">
             <div class="col-sm-12 col-md-7 text-center py-3">
-                <img src="assets/img/imagen-prueba.jpg" alt="" class="ima-2 img-fluid"> 
+                <img src="assets/img/imagen-prueba.jpg" alt="" class="ima-2 img-fluid img-thumbnail"> 
             </div>
             <div class="col-sm-12 col-md-5 text-light">
                 <h1 class="text-center">Capacitación en línea</h1>
@@ -73,44 +77,64 @@
             <div class="col-12">
                 <h1 class="titulo text-center text-light">Aprende más</h1>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 py-3">
-                <div class="text-center"><img src="assets/img/PDF.jpg" alt="" class="ima rounded-circle img-fluid"></div>
-                <div  class="text-light text-center"><h3>PDF</h3></div>
-                <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Atque ullam natus error 
-                    sunt reiciendis vitae! Illo rem laudantium 
-                    sapiente veritatis nam assumenda, non ad 
-                    ullam omnis sequi, voluptate vero ut?
+            <div class="col-sm-12 col-md-6 col-lg-3  d-flex  flex-column align-items-center justify-content-center">
+                <div class="text-center circulo d-flex align-items-center justify-content-center bg-danger">
+                        <i class="fas fa-file-pdf fa-5x" style="color:white"></i>
+                </div>
+                <div class="text-light"><h3>PDF</h3></div>
+                <div class="text-light">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 py-3">
-                <div class="text-center"><img src="assets/img/video.png" alt="" class="ima rounded-circle img-fluid"></div>
-                <div  class="text-light text-center"><h3>Vídeo</h3></div>
-                <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Atque ullam natus error 
-                    sunt reiciendis vitae! Illo rem laudantium 
-                    sapiente veritatis nam assumenda, non ad 
-                    ullam omnis sequi, voluptate vero ut?
+            <div class="col-sm-12 col-md-6 col-lg-3  d-flex  flex-column align-items-center justify-content-center">
+                <div class="text-center circulo d-flex align-items-center justify-content-center bg-secondary">
+                    <i class="fas fa-video fa-5x" style="color:white"></i>       
+                </div>
+                <div class="text-light"><h3>Vídeo</h3></div>
+                <div class="text-light">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 py-3">
-                <div class="text-center"><img src="assets/img/pp.webp" alt="" class="ima rounded-circle img-fluid"></div>
-                <div  class="text-light text-center"><h3>Presentaciones</h3></div>
-                <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Atque ullam natus error 
-                    sunt reiciendis vitae! Illo rem laudantium 
-                    sapiente veritatis nam assumenda, non ad 
-                    ullam omnis sequi, voluptate vero ut?
+            <div class="col-sm-12 col-md-6 col-lg-3  d-flex  flex-column align-items-center justify-content-center">
+                <div class="text-center circulo d-flex align-items-center justify-content-center bg-warning">
+                        <i class="fas fa-file-powerpoint fa-5x" style="color:white"></i>
+                </div>
+                <div class="text-light"><h3>Presentaciones</h3></div>
+                <div class="text-light">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 py-3">
-                <div class="text-center"><img src="assets/img/excel.jpg" alt="" class="ima rounded-circle img-fluid"></div>
-                <div  class="text-light text-center"><h3>Otros</h3></div>
-                <div class="text-light text-center">Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Atque ullam natus error 
-                    sunt reiciendis vitae! Illo rem laudantium 
-                    sapiente veritatis nam assumenda, non ad 
-                    ullam omnis sequi, voluptate vero ut?
+            <div class="col-sm-12 col-md-6 col-lg-3  d-flex  flex-column align-items-center justify-content-center">
+                <div class="text-center circulo d-flex align-items-center justify-content-center bg-success">
+                        <i class="fas fa-file-excel fa-5x" style="color:white"></i>
+                </div>
+                <div class="text-light"><h3>Otros</h3></div>
+                <div class="text-light">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
                 </div>
             </div>
         </div>

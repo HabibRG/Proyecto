@@ -1,13 +1,12 @@
 .boton
 {
-    width:300px; 
+    width:250px; 
     height:80px;
     color: darkblue;
     font-size: 30px;
 }
 .titulo
 {
-    font-size: 50px; 
     font-weight: bold
 }
 
@@ -21,4 +20,19 @@
     position: relative;
     width: 500px;
     height:250px
+}
+.circulo
+{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+}
+
+.circulo:hover
+{
+
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  box-shadow: inset 0 0 0 3px white;
 }
