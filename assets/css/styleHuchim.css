@@ -1,0 +1,24 @@
+.boton
+{
+    width:300px; 
+    height:80px;
+    color: darkblue;
+    font-size: 30px;
+}
+.titulo
+{
+    font-size: 50px; 
+    font-weight: bold
+}
+
+.ima
+{
+    width:200px;
+    height:200px
+}
+.ima-2
+{
+    position: relative;
+    width: 500px;
+    height:250px
+}
