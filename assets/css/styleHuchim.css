@@ -46,18 +46,25 @@
     
 }
 
-ul li{
+ul li
+{
     margin-bottom: 10px;
+    margin-left: -20px;
 }
 
-a:link {
+a:link 
+{
     color: white; 
     text-decoration: none 
 }
-a:visited {
+
+a:visited 
+{
     color:white; 
     text-decoration: none 
 }
-a:hover{ 
-    color:black;
+
+a:hover
+{ 
+    color: aqua;
 }
